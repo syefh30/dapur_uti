@@ -13,9 +13,10 @@ Instalasi
 1. Download file dapur_uti.rar lalu extract to
 2. Lalu masuk folder menggunakan perintah cd dari cmd, lalu ketikkan perintah "code ."
 3. Import DB-nya dengan meng-copy .env.example lalu paste dan ubah namanya menjadi .env
-4. Buat DB baru di phpmyadmin, lalu masuk ke file .env dan ubah nama "DB_DATABASE=..."-nya sesuai dengan DB yang baru dibuat tadi
+4. Buat DB baru di phpmyadmin, lalu masuk ke file .env dan ubah nama "DB_DATABASE=..."-nya sesuai dengan DB yang baru dibuat di phpmyadmin tadi.
 5. Di terminal jalankan perintah "composer install", jika sudah selesai, lanjut ketikkan "php artisan key:generate", lalu ketikkan juga "php artisan migrate:fresh --seed", terakhir ketikkan "php artisan storage:link".
-6. Jalankan perintah di terminal lalu ketikkan "php artisan serve" dan buka server "http://127.0.0.1:8000".
+6. Download file dapur_uti.sql, lalu import lagi ke DB yang baru(langkah 4) di phpmyadmin.
+7. Jalankan perintah di terminal lalu ketikkan "php artisan serve" dan buka server "http://127.0.0.1:8000".
 
 Info Credential
 
