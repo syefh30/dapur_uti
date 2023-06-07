@@ -1,4 +1,4 @@
-* Mohon maaf pak, karena codenya tidak bisa di push direpository github, jadi kami mengambil opsi mengarsipkannya dengan rar saja.
+* Mohon maaf pak, karena codenya tidak bisa di push direpository github, jadi kami mengambil opsi untuk mengarsipkannya dengan rar saja.
 
 Deskripsi singkat
 
